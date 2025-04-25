@@ -14,3 +14,11 @@
 3. Run Kamal init & deploy
 4. Setup nginx & certbot
 5. Schedule `backup.sh` with crontab
+
+## Helper Scripts
+- `deploy.sh` — wraps basic Kamal commands for easy usage.
+- `Makefile` — run commands like `make deploy`, `make setup`, or `make backup` without remembering arguments.
+
+---
+
+This is a minimal setup. Extend it for other stacks (WordPress, Node, etc.).
